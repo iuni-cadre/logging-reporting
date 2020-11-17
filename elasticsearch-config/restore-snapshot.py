@@ -24,7 +24,7 @@ awsauth = AWS4Auth(credentials.access_key, credentials.secret_key, region, servi
 
 # List repository
 
-path = '_snapshot/snapshot-repo/05-16-20-backup/_restore' # snapshot name
+#path = '_snapshot/snapshot-repo/05-16-20-backup/_restore' # snapshot name
 path = '_snapshot/' + snapshot_repo_name + '/' + backup_name + '/_restore' # snapshot name
 url = host + path
 

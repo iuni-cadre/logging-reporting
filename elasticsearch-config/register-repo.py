@@ -31,7 +31,7 @@ awsauth = AWS4Auth(credentials.access_key, credentials.secret_key, region, servi
 
 # Register repository
 
-path = '_snapshot/' + 'snapshot_repo_name' # the Elasticsearch API endpoint
+path = '_snapshot/' + snapshot_repo_name # the Elasticsearch API endpoint
 url = host + path
 
 payload = {
