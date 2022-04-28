@@ -21,7 +21,7 @@ FROM   pg_catalog.pg_class
        INNER JOIN pg_catalog.pg_namespace
          ON relnamespace = pg_catalog.pg_namespace.oid
 GROUP BY pg_catalog.pg_namespace.nspname
-ORDER  BY pg_catalog.pg_namespace.nspname DESC
+ORDER  BY pg_catalog.pg_namespace.nspname DESC;
 
 -- Print schemas in current db
 select schema_name
